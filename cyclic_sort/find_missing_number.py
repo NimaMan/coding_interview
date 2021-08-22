@@ -18,7 +18,7 @@ def find_missing_number(nums):
     if j == i: 
         i += 1 
         num_swaps = 0 
-    elif j == n: )
+    elif j == n: 
         nums[i], nums[-1] = nums[-1], j  # swap 
     elif nums[i] != nums[j]:
         nums[i], nums[j] = nums[j], nums[i]  # swap
