@@ -5,7 +5,6 @@ using namespace std;
 class CyclicSort {
  public:
   static void sort(vector<int> &nums) {
-    // TODO: Write your code here    
     int i = 0;
     while (i< nums.size()){
       if (nums[i] == i+1){
